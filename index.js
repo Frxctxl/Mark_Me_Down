@@ -87,6 +87,13 @@ function writeMD(vals) {
     ## Description
       ${vals.description}
 
+    ## Table of Contents
+      --[Installation](#installation)
+      --[Usage](#usage)
+      --[Contributers](#contributers)
+      --[Testing Information](#Testing)
+      --[Contact Information](#contact)
+
     ## Installation
       ${vals.install}
 
@@ -96,11 +103,12 @@ function writeMD(vals) {
     ## Contributers
       ${vals.conts}
 
-    ## Testing Instructions
+    ## Testing
       ${vals.test}
 
-    ##Contact Me
-      ${vals.git} ${vals.mail}
+    ##Contact
+      GitHub: ${vals.git}
+      Email: ${vals.mail}
 `;
   return fs.writeFile('./README.md', md);
 }
