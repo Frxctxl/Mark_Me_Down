@@ -106,7 +106,7 @@ ${license}
 ## Testing
   ${vals.test}
 
-##Contact
+## Contact
   GitHub: ${vals.git}
   Email: ${vals.mail}
 `;
