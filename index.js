@@ -88,11 +88,11 @@ ${license}
   ${vals.description}
 
 ## Table of Contents
-  --[Installation](#installation)
-  --[Usage](#usage)
-  --[Contributers](#contributers)
-  --[Testing Information](#Testing)
-  --[Contact Information](#contact)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributers](#contributers)
+  - [Testing Information](#Testing)
+  - [Contact Information](#contact)
 
 ## Installation
   ${vals.install}

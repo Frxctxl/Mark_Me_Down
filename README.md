@@ -9,11 +9,11 @@
 
 ## Table of Contents
 
-  --[Installation](#installation)
-  --[Usage](#usage)
-  --[Contributers](#contributers)
-  --[Testing Information](#testing)
-  --[Contact Information](#contact)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributers](#contributers)
+- [Testing Information](#testing)
+- [Contact Information](#contact)
 
 ## Installation
 
@@ -34,4 +34,5 @@
 ## Contact
 
   GitHub: Frctxl
+
   Email: <jayden_benston@yahoo.com>
