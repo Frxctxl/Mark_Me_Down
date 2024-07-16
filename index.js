@@ -80,35 +80,35 @@ function fetchLicense(license) {
 function writeMD(vals) {
   const license = fetchLicense(vals.licenses);
   const md = `
-    # ${vals.title}
+# ${vals.title}
 
-    ${license}
+${license}
 
-    ## Description
-      ${vals.description}
+## Description
+  ${vals.description}
 
-    ## Table of Contents
-      --[Installation](#installation)
-      --[Usage](#usage)
-      --[Contributers](#contributers)
-      --[Testing Information](#Testing)
-      --[Contact Information](#contact)
+## Table of Contents
+  --[Installation](#installation)
+  --[Usage](#usage)
+  --[Contributers](#contributers)
+  --[Testing Information](#Testing)
+  --[Contact Information](#contact)
 
-    ## Installation
-      ${vals.install}
+## Installation
+  ${vals.install}
 
-    ## Usage
-      ${vals.usage}
+## Usage
+  ${vals.usage}
 
-    ## Contributers
-      ${vals.conts}
+## Contributers
+  ${vals.conts}
 
-    ## Testing
-      ${vals.test}
+## Testing
+  ${vals.test}
 
-    ##Contact
-      GitHub: ${vals.git}
-      Email: ${vals.mail}
+##Contact
+  GitHub: ${vals.git}
+  Email: ${vals.mail}
 `;
   return fs.writeFile('./README.md', md);
 }

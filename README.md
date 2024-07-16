@@ -1,31 +1,37 @@
 
-    # MMD
+# Mark Me Down
 
-    ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)(https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    ## Description
-      Its good
+## Description
 
-    ## Table of Contents
-      - [Installation](#installation)
-      - [Usage](#usage)
-      - [Contributers](#contributers)
-      - [Testing Information](#Testing)
-      - [Contact Information](#contact)
+  This is a CLI used to create markdown files for various coding projects. This streamlines the markdown process (which is my least favorite part). This project taught me the basics of node CLI development and helped renew my own markdown skills.
 
-    ## Installation
-      node it
+## Table of Contents
 
-    ## Usage
-      node it
+  --[Installation](#installation)
+  --[Usage](#usage)
+  --[Contributers](#contributers)
+  --[Testing Information](#testing)
+  --[Contact Information](#contact)
 
-    ## Contributers
-      myself 
+## Installation
 
-    ## Testing
-      Look at it
+  This project is a node project. So you will have to install dependences to run it. But to get started just clone this repository.
 
-    ##Contact
-      GitHub: Frxctxl
-      Email: jayden_benston@yahoo.com
+## Usage
 
+  Just follow all the prompts and you will have a perfectly suitable readme for any project
+
+## Contributers
+
+  This was made with the assistance of the Rutgers Bootcamp, JD Tadlock, and Node documentation
+
+## Testing
+
+  Consult Node's documentation to troubleshoot any building process
+
+## Contact
+
+  GitHub: Frctxl
+  Email: <jayden_benston@yahoo.com>
